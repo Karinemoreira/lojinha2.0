@@ -1,0 +1,611 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-woman",
+      "menu-item#category-man",
+      "menu-item#category-kids",
+      "menu-item#category-acessories",
+      "menu-item#sale"
+    ]
+  },
+  "menu-item#category-woman": {
+    "props": {
+      "id": "menu-item-category-woman",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/woman---accessories/",
+        "noFollow": false,
+        "tagTitle": "woman",
+        "text": "WOMAN"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-woman"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-woman": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-woman"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-woman": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-woman-shirts",
+      "menu-item#category-woman-tShirts",
+      "menu-item#category-woman-coats",
+      "menu-item#category-woman-suits",
+      "menu-item#category-woman-shorts",
+      "menu-item#category-woman-pants",
+      "menu-item#category-woman-shoes",
+      "menu-item#category-woman-underwear"
+    ]
+  },
+  "menu-item#category-woman-shirts": {
+    "props": {
+      "id": "menu-item-category-woman-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/woman---accessories/shirts/",
+        "noFollow": false,
+        "tagTitle": "shirts",
+        "text": "SHIRTS"
+      }
+    }
+  },
+  "menu-item#category-woman-tShirts": {
+    "props": {
+      "id": "menu-item-category-woman-tShirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/woman---accessories/tShirts/",
+        "noFollow": false,
+        "tagTitle": "tShirts",
+        "text": "T-SHIRTS"
+      }
+    }
+  },
+  "menu-item#category-woman-coats": {
+    "props": {
+      "id": "menu-item-category-woman-coats",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemPropss": {
+        "type": "internal",
+        "href": "/woman---accessories/coats/",
+        "noFollow": false,
+        "tagTitle": "coats",
+        "text": "COATS"
+      }
+    }
+  },
+  "menu-item#category-woman-suits": {
+    "props": {
+      "id": "menu-item-category-woman-suits",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemPropss": {
+        "type": "internal",
+        "href": "/woman---accessories/suits/",
+        "noFollow": false,
+        "tagTitle": "suits",
+        "text": "SUITS"
+      }
+    }
+  },
+  "menu-item#category-woman-shorts": {
+    "props": {
+      "id": "menu-item-category-woman-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemPropss": {
+        "type": "internal",
+        "href": "/woman---accessories/shorts/",
+        "noFollow": false,
+        "tagTitle": "shorts",
+        "text": "SHORTS"
+      }
+    }
+  },
+  "menu-item#category-woman-pants": {
+    "props": {
+      "id": "menu-item-category-woman-pants",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemPropss": {
+        "type": "internal",
+        "href": "/woman---accessories/pants/",
+        "noFollow": false,
+        "tagTitle": "pants",
+        "text": "PANTS"
+      }
+    }
+  },
+  "menu-item#category-woman-shoes": {
+    "props": {
+      "id": "menu-item-category-woman-shoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemPropss": {
+        "type": "internal",
+        "href": "/woman---accessories/shoes/",
+        "noFollow": false,
+        "tagTitle": "shoes",
+        "text": "SHOES"
+      }
+    }
+  },
+  "menu-item#category-woman-underwear": {
+    "props": {
+      "id": "menu-item-category-woman-underwear",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/woman---accessories/underwear/",
+        "noFollow": false,
+        "tagTitle": "underwear",
+        "text": "UNDERWEAR"
+      }
+    }
+  },
+  "menu-item#category-man": {
+    "props": {
+      "id": "menu-item-category-man",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---acessories/",
+        "noFollow": false,
+        "tagTitle": "man",
+        "text": "MAN"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-man"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-man": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-man"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-man": {
+    "props": {
+      "orientation":"vertical"
+    },
+    "children": [
+      "menu-item#category-man-shirts",
+      "menu-item#category-man-tShirts",
+      "menu-item#category-man-coats",
+      "menu-item#category-man-suits",
+      "menu-item#category-man-shorts",
+      "menu-item#category-man-pants",
+      "menu-item#category-man-acessories",
+      "menu-item#category-man-shoes",
+      "menu-item#category-man-underwear"
+    ]
+  },
+  "menu-item#category-man-shirts": {
+    "props": {
+      "id": "menu-item-category-man-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/shirts/",
+        "noFollow": false,
+        "tagTitle": "shirts",
+        "text": "SHIRTS"
+      }
+    }
+  },
+  "menu-item#category-man-tShirts": {
+    "props": {
+      "id": "menu-item-category-man-tShirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/tShirts/",
+        "noFollow": false,
+        "tagTitle": "tShirts",
+        "text": "T-SHIRTS"
+      }
+    }
+  },
+  "menu-item#category-man-coats": {
+    "props": {
+      "id": "menu-item-category-man-coats",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/coats/",
+        "noFollow": false,
+        "tagTitle": "coats",
+        "text": "COATS"
+      }
+    }
+  },
+  "menu-item#category-man-suits": {
+    "props": {
+      "id": "menu-item-category-man-suits",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/suits/",
+        "noFollow": false,
+        "tagTitle": "suits",
+        "text": "SUITS"
+      }
+    }
+  },
+  "menu-item#category-man-shorts": {
+    "props": {
+      "id": "menu-item-category-man-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/shorts/",
+        "noFollow": false,
+        "tagTitle": "shorts",
+        "text": "SHORTS"
+      }
+    }
+  },
+  "menu-item#category-man-pants": {
+    "props": {
+      "id": "menu-item-category-man-pants",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/pants/",
+        "noFollow": false,
+        "tagTitle": "pants",
+        "text": "PANTS"
+      }
+    }
+  },
+  "menu-item#category-man-acessories": {
+    "props": {
+      "id": "menu-item-category-man-acessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/acessories/",
+        "noFollow": false,
+        "tagTitle": "acessories",
+        "text": "ACESSORIES"
+      }
+    }
+  },
+  "menu-item#category-man-shoes": {
+    "props": {
+      "id": "menu-item-category-man-shoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/shoes/",
+        "noFollow": false,
+        "tagTitle": "shoes",
+        "text": "SHOES"
+      }
+    }
+  },
+  "menu-item#category-man-underwear": {
+    "props": {
+      "id": "menu-item-category-man-underwear",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---accessories/underwear/",
+        "noFollow": false,
+        "tagTitle": "underwear",
+        "text": "UNDERWEAR"
+      }
+    }
+  },
+  "menu-item#category-kids": {
+    "props": {
+      "id": "menu-item-category-kids",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---acessories/",
+        "noFollow": false,
+        "tagTitle": "kids",
+        "text": "KIDS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-kids"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-kids": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-kids"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-kids": {
+    "props": {
+      "orientation":"vertical"
+    },
+    "children": [
+      "menu-item#category-kids-shirts",
+      "menu-item#category-kids-tShirts",
+      "menu-item#category-kids-coats",
+      "menu-item#category-kids-party",
+      "menu-item#category-kids-shorts",
+      "menu-item#category-kids-pants",
+      "menu-item#category-kids-acessories",
+      "menu-item#category-kids-underwear"
+    ]
+  },
+  "menu-item#category-kids-shirts": {
+    "props": {
+      "id": "menu-item-category-kids-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/shirts/",
+        "noFollow": false,
+        "tagTitle": "shirts",
+        "text": "SHIRTS"
+      }
+    }
+  },
+  "menu-item#category-kids-tShirts": {
+    "props": {
+      "id": "menu-item-category-kids-tShirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/tShirts/",
+        "noFollow": false,
+        "tagTitle": "tShirts",
+        "text": "T-SHIRTS"
+      }
+    }
+  },
+  "menu-item#category-kids-coats": {
+    "props": {
+      "id": "menu-item-category-kids-coats",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/coats/",
+        "noFollow": false,
+        "tagTitle": "coats",
+        "text": "COATS"
+      }
+    }
+  },
+  "menu-item#category-kids-party": {
+    "props": {
+      "id": "menu-item-category-kids-party",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/party/",
+        "noFollow": false,
+        "tagTitle": "party",
+        "text": "PARTY"
+      }
+    }
+  },
+  "menu-item#category-kids-shorts": {
+    "props": {
+      "id": "menu-item-category-kids-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/shorts/",
+        "noFollow": false,
+        "tagTitle": "shorts",
+        "text": "SHORTS"
+      }
+    }
+  },
+  "menu-item#category-kids-pants": {
+    "props": {
+      "id": "menu-item-category-kids-pants",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/pants/",
+        "noFollow": false,
+        "tagTitle": "pants",
+        "text": "PANTS"
+      }
+    }
+  },
+  "menu-item#category-kids-acessories": {
+    "props": {
+      "id": "menu-item-category-kids-acessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/acessories/",
+        "noFollow": false,
+        "tagTitle": "acessories",
+        "text": "ACESSORIES"
+      }
+    }
+  },
+
+  "menu-item#category-kids-underwear": {
+    "props": {
+      "id": "menu-item-category-kids-underwear",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---accessories/underwear/",
+        "noFollow": false,
+        "tagTitle": "underwear",
+        "text": "UNDERWEAR"
+      }
+    }
+  },
+  "menu-item#category-acessories": {
+    "props": {
+      "id": "menu-item-category-acessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessories---acessories/",
+        "noFollow": false,
+        "tagTitle": "acessories",
+        "text": "ACESSORIES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-acessories"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-acessories": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-acessories"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-acessories": {
+    "props": {
+      "orientation":"vertical"
+    },
+    "children": [
+      "menu-item#category-acessories-eyeglasses",
+      "menu-item#category-acessories-socks",
+      "menu-item#category-acessories-swinsuits"
+    ]
+  },
+  "menu-item#category-acessories-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-acessories-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessories---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "eyeglasses",
+        "text": "EYEGLASSES"
+      }
+    }
+  },
+  "menu-item#category-acessories-socks": {
+    "props": {
+      "id": "menu-item-category-acessories-socks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessories---accessories/socks/",
+        "noFollow": false,
+        "tagTitle": "socks",
+        "text": "SOCKS"
+      }
+    }
+  },
+  "menu-item#category-acessories-swinsuits": {
+    "props": {
+      "id": "menu-item-category-acessories-swinsuits",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessories---accessories/swinsuits/",
+        "noFollow": false,
+        "tagTitle": "swinsuits",
+        "text": "SWINSUITS"
+      }
+    }
+  },
+  "menu-item#sale":{
+  "props": {
+    "blockClass": "sale",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/sale---sale",
+      "noFollow": false,
+      "tagTitle": "sale",
+      "text": "SALE"
+      }
+    }
+  }
+  }
+

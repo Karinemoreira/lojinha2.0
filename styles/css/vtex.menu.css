@@ -1,0 +1,18 @@
+.styledLinkContent {
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 12px Poppins Light;
+    letter-spacing: 2.4px;
+    color: black;
+    text-transform: uppercase;
+    opacity: 1;
+}   
+
+.styledLinkContent--sale {
+    color: #CCB28A;
+    text-align: left;
+    font: normal normal 12.5px Poppins bold;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    opacity: 1;
+}   
