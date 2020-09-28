@@ -14,10 +14,12 @@
   font-weight: 200;
 }
 
-.container--deals .paragraph {
-  font-family: Poppins;
-  font-weight: bold;
-  margin: 0;
+.container--deals .paragraph {  
+  color: black;
+  text-align: left;
+  font: normal normal normal 12px Poppins Light;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;  
 }
 
 .container--link {

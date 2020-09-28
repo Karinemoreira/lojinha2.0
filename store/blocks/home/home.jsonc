@@ -51,7 +51,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## MAIS VENDIDOS",
       "blockClass": "shelfTitle"
     }
   },
@@ -68,7 +68,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
         "phone": 1
       },
