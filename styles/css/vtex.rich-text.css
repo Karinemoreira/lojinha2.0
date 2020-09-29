@@ -12,6 +12,12 @@
 
 .headingLevel2--shelfTitle {
   font-weight: 200;
+  margin-top: 100px;
+  text-align: left;
+  font: 20px Poppins normal;
+  letter-spacing: 2.8px;
+  color: #17100D;
+  text-transform: uppercase;
 }
 
 .container--deals .paragraph {  

@@ -44,16 +44,16 @@
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
-      "add-to-cart-button"
+      "product-installments#summary"
     ]
   },
 
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1",
-      "maxHeight": 300
+      "showBadge": true,
+      "aspectRatio": "3:4",
+      "height": 419,
+      "width": 299
     }
   },
   "stack-layout#prodsum": {
@@ -65,7 +65,8 @@
 
   "product-summary-image": {
     "props": {
-      "height": 220
+      "height": 419,
+      "width": 299
     }
   },
 
