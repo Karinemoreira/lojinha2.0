@@ -8,9 +8,14 @@
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "flex-layout.row#spacer",
+      "rich-text#textTitle",
+      "rich-text#textHome",
+      "flex-layout.row#image",
+      "flex-layout.row#spacer",
+      "rich-text#shelf-news",
+      "flex-layout.row#shelfNews",
+      "image#brandShopNow",
       "newsletter"
     ]
   },
@@ -77,25 +82,16 @@
       "blockClass": "shelf"
     }
   },
-
-  "info-card#home": {
+  "rich-text#textTitle": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "text": "## ROUPAS FEMININAS ONLINE",
+      "blockClass": "textTitle"
     }
   },
-
-  "rich-text#question": {
+  "rich-text#textHome": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.",
+      "blockClass": "textHome"
     }
   },
 
@@ -104,5 +100,91 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
+  },
+  "flex-layout.row#image":{
+    "children":["image#home", "image#home2"],
+    "props": {
+      "blockClass": "rowImage"
+    }
+  },
+  "image#home": {
+    "props": {
+      "isFullModeStyle": false,
+      "src": "https://i.imgur.com/aPXBc6v.png",
+      "alt": "imagem blazer",
+      "blockClass": "image-home",
+      "width": 618,
+      "height": 512
+    }
+   
+    },
+  "image#home2": {
+    "props": {
+      "isFullModeStyle": false,
+      "src": "https://i.imgur.com/Dywp7cb.png",
+      "alt": "imagem mulher casaco",
+      "blockClass": "image-home2",
+      "width": 618,
+      "height": 512
+    }
+  },
+
+  "flex-layout.row#spacer":{
+    "props":{
+      "blockClass": "spacer"
+    }
+  },
+
+  "rich-text#shelf-news": {
+    "props": {
+      "text": "## NOVIDADES DA SEMANA",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelfNews": {
+    "children": ["list-context.product-list#news1"]
+  },
+  "list-context.product-list#news1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#news-products"],
+    "props": {
+     
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#news-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#imageBrandShopNow": {
+    "children": ["image#brandShopNow"],
+    "props":{
+    "blockClass": "image-brandShopNow"}
+  },
+  "image#brandShopNow": {
+    "props":{
+      "isFullModeStyle": false,
+      "src": "https://i.imgur.com/d8JCFIq.png",
+      "alt": "imagem banner shop now",
+      "width": 1256,
+      "height": 272
+    }
+    },
+    "newsletter":{
+      "props": {
+        "label":"RECEBA NOSSAS NOVIDADES:",
+        "placeholder":"Digite seu e-mail",
+        "submit": "CADASTRAR"
+      }
+    }
   }
-}
+

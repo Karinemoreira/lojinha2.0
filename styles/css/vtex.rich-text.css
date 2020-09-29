@@ -5,27 +5,28 @@
 }
 
 .container--shelfTitle {
+  margin-top: 100px;
   color: #727273;
   justify-content: center;
   text-align: center;
 }
 
 .headingLevel2--shelfTitle {
-  font-weight: 200;
-  margin-top: 100px;
+ 
   text-align: left;
-  font: 20px Poppins normal;
+  font: normal normal normal 14px Poppins Light;
   letter-spacing: 2.8px;
   color: #17100D;
   text-transform: uppercase;
 }
 
 .container--deals .paragraph {  
-  color: black;
-  text-align: left;
-  font: normal normal normal 12px Poppins Light;
-  letter-spacing: 2.4px;
-  text-transform: uppercase;  
+text-align: left;
+font: normal normal normal 12px Poppins Light;
+letter-spacing: 2.4px;
+color: #17100D;
+text-transform: uppercase;
+
 }
 
 .container--link {
@@ -75,6 +76,16 @@
   color: #03034E;
   font-size: 28px;
   font-weight: 700;
+}
+
+.container--textTitle {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  font: 14px/55px Poppins normal;
+  letter-spacing: 2.1px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 640px) {

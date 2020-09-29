@@ -21,20 +21,27 @@
 
 .savings {
   font-weight: 500;
-  color: #79B03A;
+  color: black;
 }
 
 .sellingPriceValue--summary {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #2E2E2E;
+  text-align: center;
+  font: 12px Poppins bold;
+  letter-spacing: 0.6px;
+  color: #000000;
+  opacity: 1;
 }
 
 .savings--summary {
-  background: #8BC34A;
-  border-radius: 1000px;
-  align-items: center;
-  display: flex;
+  background: #EFCAA4;
+  height: 15px;
+  width: 56px;
+  color: var(--unnamed-color-000000);
+  text-align: center;
+  font: 10px Poppins bold;
+  letter-spacing: 1.5px;
+  color: #000000;
+  opacity: 1;
 }
 
 .savings-discount--summary {
